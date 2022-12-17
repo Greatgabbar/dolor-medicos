@@ -1,0 +1,69 @@
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro {
+  padding: 20px;
+}
+
+.patients_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-basis: 0.5;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  background-color: #f7d4d7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+.data p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.buttonContainer {
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: royalblue;
+  height: 40px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

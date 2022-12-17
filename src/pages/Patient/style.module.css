@@ -1,0 +1,22 @@
+.patient_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px 0px;
+}
+
+.doctor {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 0.5;
+  align-items: center;
+}
+.prescription {
+  width: 100%;
+}
+.disorder {
+  width: 100%;
+}
