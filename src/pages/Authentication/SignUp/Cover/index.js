@@ -48,7 +48,7 @@ function Cover() {
           textAlign="center"
         >
           <MKTypography variant="h4" fontWeight="medium" color="white" mt={1}>
-            Join us today
+            Welcome
           </MKTypography>
           <MKTypography display="block" variant="button" color="white" my={1}>
             Enter your email and password to register
@@ -65,27 +65,7 @@ function Cover() {
             <MKBox mb={2}>
               <MKInput type="password" label="Password" fullWidth />
             </MKBox>
-            <MKBox display="flex" alignItems="center" ml={-1}>
-              <Checkbox />
-              <MKTypography
-                variant="button"
-                fontWeight="regular"
-                color="text"
-                sx={{ cursor: "pointer", userSelect: "none", ml: -1 }}
-              >
-                &nbsp;&nbsp;I agree the&nbsp;
-              </MKTypography>
-              <MKTypography
-                component="a"
-                href="#"
-                variant="button"
-                fontWeight="bold"
-                color="info"
-                textGradient
-              >
-                Terms and Conditions
-              </MKTypography>
-            </MKBox>
+
             <MKBox mt={3} mb={1}>
               <MKButton variant="gradient" color="info" fullWidth>
                 sign in

@@ -26,17 +26,7 @@ function BaseLayout({ children }) {
   return (
     <MKBox display="flex" flexDirection="column" bgColor="white" minHeight="100vh">
       <MKBox bgColor="white" shadow="sm" py={0.25}>
-        <DefaultNavbar
-          routes={routes}
-          action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-pro-react",
-            label: "buy now",
-            color: "info",
-          }}
-          transparent
-          relative
-        />
+        <DefaultNavbar routes={routes} transparent relative />
       </MKBox>
       <Container sx={{ mt: 6 }}>
         <Grid container item xs={12} flexDirection="column" justifyContent="center" mx="auto">

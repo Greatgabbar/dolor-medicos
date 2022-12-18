@@ -29,6 +29,7 @@ import Presentation from "layouts/pages/presentation";
 // Material Kit 2 PRO React routes
 import routes from "routes";
 import Patient from "pages/Patient";
+import AddPatient from "pages/Add_Patient";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -58,6 +59,7 @@ export default function App() {
       <Routes>
         {getRoutes(routes)}
         <Route path="/patients" element={<Patient />} />
+        <Route path="/addpatient" element={<AddPatient />} />
         <Route path="/presentation" element={<Presentation />} />
         <Route path="*" element={<Navigate to="/presentation" />} />
       </Routes>

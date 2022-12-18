@@ -43,6 +43,7 @@ import SignInIllustration from "layouts/authentication/sign-in/illustration";
 import SignUpCoverPage from "layouts/authentication/sign-up/cover";
 
 import DashBoard from "pages/DashBoard";
+import AddPatient from "pages/Add_Patient";
 
 const routes = [
   {

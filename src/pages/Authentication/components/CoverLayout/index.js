@@ -34,16 +34,7 @@ function CoverLayout({ coverHeight, image, children }) {
   return (
     <MKBox height="calc(100vh - 1rem)">
       <MKBox width="100%" position="absolute" top="0.25rem">
-        <DefaultNavbar
-          routes={routes}
-          action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-pro-react",
-            label: "buy now",
-          }}
-          transparent
-          light
-        />
+        <DefaultNavbar routes={routes} transparent light />
       </MKBox>
       <MKBox
         width="calc(100% - 2rem)"
@@ -72,7 +63,7 @@ function CoverLayout({ coverHeight, image, children }) {
           </Grid>
         </Grid>
       </MKBox>
-      <MKBox width="100%" position="absolute" bottom="1.625rem">
+      <MKBox width="100%" position="absolute" bottom="1rem">
         <SimpleFooter />
       </MKBox>
     </MKBox>
@@ -81,7 +72,7 @@ function CoverLayout({ coverHeight, image, children }) {
 
 // Setting default props for the CoverLayout
 CoverLayout.defaultProps = {
-  coverHeight: "35vh",
+  coverHeight: "45vh",
 };
 
 // Typechecking props for the CoverLayout
